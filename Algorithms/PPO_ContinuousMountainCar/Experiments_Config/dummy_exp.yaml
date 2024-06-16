@@ -1,0 +1,9 @@
+exp1:
+  timesteps: 200000
+  timesteps_per_batch: 1000
+  max_timesteps_per_episode: 750
+  gamma: 0.99
+  epsilon: 0.2
+  alpha: 0.0003
+  training_cycles_per_batch: 5
+  save_every_x_timesteps: 200

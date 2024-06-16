@@ -1,0 +1,698 @@
+Device = cuda
+Experiment File Selected: 15M_timesteps.yaml
+
+Experiments loaded successfully.
+
+Experiment ID: exp1
+Experiment Configuration:
+  timesteps: 15000000
+  timesteps_per_batch: 2048
+  max_timesteps_per_episode: 1000
+  gamma: 0.99
+  epsilon: 0.2
+  alpha: 0.0001
+  training_cycles_per_batch: 5
+  save_every_x_timesteps: 5000000
+
+Running Experiment...
+
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_20-29-19/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_20-29-19/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_20-29-19/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_20-29-19/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_20-29-19/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_20-29-19/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_20-29-19/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_20-29-19/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_20-29-19/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_20-42-55/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_20-42-55/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_20-42-55/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_20-42-55/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_20-42-55/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_20-42-55/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_20-42-55/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_20-42-55/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_20-42-55/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_20-56-30/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_20-56-30/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_20-56-30/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_20-56-30/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_20-56-30/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_20-56-30/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_20-56-30/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_20-56-30/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_20-56-30/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_21-10-10/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_21-10-10/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_21-10-10/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_21-10-10/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_21-10-10/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_21-10-10/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_21-10-10/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_21-10-10/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_21-10-10/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_21-23-57/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_21-23-57/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_21-23-57/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_21-23-57/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_21-23-57/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_21-23-57/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_21-23-57/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_21-23-57/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_21-23-57/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_21-37-45/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_21-37-45/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_21-37-45/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_21-37-45/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_21-37-45/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_21-37-45/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_21-37-45/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_21-37-45/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_21-37-45/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_21-51-23/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_21-51-23/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_21-51-23/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_21-51-23/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_21-51-23/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_21-51-23/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_21-51-23/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_21-51-23/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_21-51-23/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_22-04-56/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_22-04-56/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_22-04-56/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_22-04-56/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_22-04-56/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_22-04-56/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_22-04-56/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_22-04-56/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_22-04-56/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_22-18-27/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_22-18-27/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_22-18-27/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_22-18-27/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_22-18-27/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_22-18-27/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_22-18-27/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_22-18-27/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_22-18-27/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_22-31-51/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_22-31-51/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_22-31-51/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_22-31-51/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_22-31-51/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_22-31-51/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_22-31-51/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_22-31-51/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_22-31-51/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_22-45-17/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_22-45-17/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_22-45-17/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_22-45-17/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_22-45-17/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_22-45-17/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_22-45-17/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_22-45-17/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_22-45-17/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_22-58-44/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_22-58-44/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_22-58-44/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_22-58-44/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_22-58-44/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_22-58-44/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_22-58-44/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_22-58-44/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_22-58-44/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_23-12-10/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_23-12-10/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_23-12-10/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_23-12-10/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_23-12-10/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_23-12-10/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_23-12-10/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_23-12-10/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_23-12-10/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_23-25-34/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_23-25-34/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_23-25-34/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_23-25-34/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_23-25-34/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_23-25-34/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_23-25-34/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_23-25-34/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_23-25-34/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_23-39-02/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_23-39-02/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_23-39-02/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_23-39-02/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_23-39-02/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_23-39-02/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_23-39-02/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_23-39-02/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_23-39-02/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_23-52-29/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_23-52-29/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_23-52-29/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_23-52-29/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_23-52-29/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_23-52-29/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_23-52-29/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_23-52-29/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-22_23-52-29/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_00-05-57/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_00-05-57/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_00-05-57/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_00-05-57/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_00-05-57/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_00-05-57/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_00-05-57/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_00-05-57/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_00-05-57/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_00-19-28/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_00-19-28/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_00-19-28/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_00-19-28/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_00-19-28/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_00-19-28/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_00-19-28/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_00-19-28/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_00-19-28/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_00-32-57/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_00-32-57/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_00-32-57/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_00-32-57/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_00-32-57/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_00-32-57/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_00-32-57/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_00-32-57/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_00-32-57/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_00-46-27/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_00-46-27/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_00-46-27/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_00-46-27/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_00-46-27/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_00-46-27/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_00-46-27/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_00-46-27/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_00-46-27/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_00-59-58/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_00-59-58/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_00-59-58/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_00-59-58/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_00-59-58/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_00-59-58/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_00-59-58/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_00-59-58/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_00-59-58/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_01-13-30/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_01-13-30/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_01-13-30/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_01-13-30/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_01-13-30/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_01-13-30/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_01-13-30/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_01-13-30/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_01-13-30/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_01-27-04/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_01-27-04/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_01-27-04/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_01-27-04/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_01-27-04/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_01-27-04/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_01-27-04/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_01-27-04/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_01-27-04/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_01-40-37/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_01-40-37/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_01-40-37/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_01-40-37/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_01-40-37/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_01-40-37/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_01-40-37/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_01-40-37/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_01-40-37/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_01-54-13/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_01-54-13/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_01-54-13/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_01-54-13/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_01-54-13/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_01-54-13/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_01-54-13/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_01-54-13/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_01-54-13/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_02-07-54/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_02-07-54/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_02-07-54/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_02-07-54/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_02-07-54/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_02-07-54/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_02-07-54/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_02-07-54/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_02-07-54/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_02-21-35/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_02-21-35/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_02-21-35/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_02-21-35/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_02-21-35/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_02-21-35/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_02-21-35/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_02-21-35/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_02-21-35/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_02-35-18/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_02-35-18/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_02-35-18/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_02-35-18/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_02-35-18/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_02-35-18/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_02-35-18/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_02-35-18/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_02-35-18/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_02-49-04/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_02-49-04/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_02-49-04/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_02-49-04/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_02-49-04/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_02-49-04/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_02-49-04/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_02-49-04/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_02-49-04/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_03-02-51/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_03-02-51/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_03-02-51/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_03-02-51/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_03-02-51/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_03-02-51/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_03-02-51/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_03-02-51/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_03-02-51/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_03-16-33/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_03-16-33/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_03-16-33/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_03-16-33/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_03-16-33/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_03-16-33/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_03-16-33/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_03-16-33/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_03-16-33/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_03-30-16/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_03-30-16/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_03-30-16/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_03-30-16/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_03-30-16/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_03-30-16/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_03-30-16/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_03-30-16/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_03-30-16/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_03-43-55/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_03-43-55/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_03-43-55/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_03-43-55/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_03-43-55/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_03-43-55/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_03-43-55/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_03-43-55/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_03-43-55/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_03-57-38/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_03-57-38/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_03-57-38/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_03-57-38/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_03-57-38/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_03-57-38/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_03-57-38/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_03-57-38/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_03-57-38/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_04-11-26/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_04-11-26/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_04-11-26/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_04-11-26/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_04-11-26/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_04-11-26/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_04-11-26/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_04-11-26/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_04-11-26/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_04-25-19/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_04-25-19/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_04-25-19/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_04-25-19/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_04-25-19/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_04-25-19/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_04-25-19/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_04-25-19/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_04-25-19/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_04-39-11/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_04-39-11/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_04-39-11/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_04-39-11/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_04-39-11/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_04-39-11/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_04-39-11/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_04-39-11/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_04-39-11/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_04-53-04/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_04-53-04/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_04-53-04/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_04-53-04/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_04-53-04/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_04-53-04/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_04-53-04/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_04-53-04/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_04-53-04/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_05-06-56/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_05-06-56/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_05-06-56/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_05-06-56/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_05-06-56/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_05-06-56/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_05-06-56/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_05-06-56/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_05-06-56/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_05-20-47/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_05-20-47/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_05-20-47/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_05-20-47/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_05-20-47/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_05-20-47/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_05-20-47/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_05-20-47/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_05-20-47/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_05-34-43/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_05-34-43/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_05-34-43/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_05-34-43/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_05-34-43/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_05-34-43/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_05-34-43/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_05-34-43/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_05-34-43/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_05-48-40/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_05-48-40/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_05-48-40/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_05-48-40/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_05-48-40/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_05-48-40/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_05-48-40/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_05-48-40/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_05-48-40/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_06-02-35/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_06-02-35/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_06-02-35/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_06-02-35/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_06-02-35/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_06-02-35/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_06-02-35/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_06-02-35/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_06-02-35/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_06-16-26/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_06-16-26/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_06-16-26/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_06-16-26/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_06-16-26/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_06-16-26/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_06-16-26/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_06-16-26/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_06-16-26/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_06-30-14/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_06-30-14/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_06-30-14/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_06-30-14/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_06-30-14/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_06-30-14/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_06-30-14/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_06-30-14/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_06-30-14/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_06-44-02/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_06-44-02/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_06-44-02/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_06-44-02/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_06-44-02/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_06-44-02/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_06-44-02/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_06-44-02/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_06-44-02/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_06-57-54/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_06-57-54/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_06-57-54/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_06-57-54/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_06-57-54/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_06-57-54/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_06-57-54/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_06-57-54/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_06-57-54/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_07-11-46/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_07-11-46/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_07-11-46/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_07-11-46/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_07-11-46/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_07-11-46/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_07-11-46/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_07-11-46/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_07-11-46/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_07-25-34/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_07-25-34/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_07-25-34/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_07-25-34/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_07-25-34/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_07-25-34/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_07-25-34/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_07-25-34/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_07-25-34/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_07-39-24/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_07-39-24/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_07-39-24/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_07-39-24/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_07-39-24/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_07-39-24/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_07-39-24/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_07-39-24/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_07-39-24/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_07-53-03/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_07-53-03/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_07-53-03/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_07-53-03/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_07-53-03/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_07-53-03/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_07-53-03/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_07-53-03/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_07-53-03/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_08-06-42/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_08-06-42/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_08-06-42/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_08-06-42/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_08-06-42/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_08-06-42/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_08-06-42/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_08-06-42/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_08-06-42/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_08-20-17/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_08-20-17/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_08-20-17/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_08-20-17/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_08-20-17/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_08-20-17/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_08-20-17/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_08-20-17/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_08-20-17/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_08-33-57/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_08-33-57/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_08-33-57/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_08-33-57/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_08-33-57/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_08-33-57/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_08-33-57/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_08-33-57/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_08-33-57/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_08-47-40/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_08-47-40/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_08-47-40/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_08-47-40/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_08-47-40/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_08-47-40/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_08-47-40/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_08-47-40/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_08-47-40/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_09-01-22/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_09-01-22/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_09-01-22/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_09-01-22/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_09-01-22/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_09-01-22/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_09-01-22/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_09-01-22/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_09-01-22/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_09-15-05/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_09-15-05/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_09-15-05/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_09-15-05/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_09-15-05/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_09-15-05/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_09-15-05/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_09-15-05/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_09-15-05/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_09-28-47/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_09-28-47/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_09-28-47/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_09-28-47/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_09-28-47/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_09-28-47/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_09-28-47/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_09-28-47/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_09-28-47/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_09-42-29/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_09-42-29/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_09-42-29/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_09-42-29/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_09-42-29/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_09-42-29/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_09-42-29/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_09-42-29/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_09-42-29/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_09-56-11/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_09-56-11/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_09-56-11/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_09-56-11/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_09-56-11/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_09-56-11/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_09-56-11/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_09-56-11/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_09-56-11/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_10-09-54/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_10-09-54/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_10-09-54/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_10-09-54/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_10-09-54/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_10-09-54/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_10-09-54/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_10-09-54/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_10-09-54/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_10-23-35/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_10-23-35/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_10-23-35/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_10-23-35/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_10-23-35/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_10-23-35/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_10-23-35/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_10-23-35/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_10-23-35/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_10-37-17/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_10-37-17/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_10-37-17/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_10-37-17/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_10-37-17/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_10-37-17/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_10-37-17/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_10-37-17/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_10-37-17/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_10-50-59/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_10-50-59/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_10-50-59/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_10-50-59/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_10-50-59/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_10-50-59/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_10-50-59/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_10-50-59/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_10-50-59/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_11-04-47/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_11-04-47/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_11-04-47/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_11-04-47/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_11-04-47/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_11-04-47/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_11-04-47/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_11-04-47/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_11-04-47/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_11-18-39/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_11-18-39/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_11-18-39/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_11-18-39/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_11-18-39/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_11-18-39/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_11-18-39/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_11-18-39/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_11-18-39/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_11-32-25/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_11-32-25/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_11-32-25/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_11-32-25/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_11-32-25/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_11-32-25/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_11-32-25/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_11-32-25/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_11-32-25/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_11-46-05/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_11-46-05/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_11-46-05/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_11-46-05/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_11-46-05/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_11-46-05/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_11-46-05/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_11-46-05/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_11-46-05/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_11-59-47/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_11-59-47/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_11-59-47/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_11-59-47/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_11-59-47/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_11-59-47/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_11-59-47/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_11-59-47/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_11-59-47/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_12-13-28/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_12-13-28/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_12-13-28/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_12-13-28/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_12-13-28/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_12-13-28/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_12-13-28/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_12-13-28/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_12-13-28/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_12-27-06/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_12-27-06/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_12-27-06/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_12-27-06/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_12-27-06/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_12-27-06/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_12-27-06/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_12-27-06/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_12-27-06/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_12-40-41/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_12-40-41/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_12-40-41/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_12-40-41/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_12-40-41/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_12-40-41/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_12-40-41/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_12-40-41/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_12-40-41/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_12-54-19/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_12-54-19/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_12-54-19/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_12-54-19/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_12-54-19/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_12-54-19/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_12-54-19/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_12-54-19/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_12-54-19/state.data
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_13-07-55/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_13-07-55/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_13-07-55/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_13-07-55/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_13-07-55/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_13-07-55/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_13-07-55/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_13-07-55/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_13-07-55/state.data
+Training complete!
+Total training time: 17:01:07.388359 
+
+· Actor saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_13-16-49/Actor.pth
+· Actor Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_13-16-49/actor_losses
+· Critic saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_13-16-49/Critic.pth
+· Critic Losses saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_13-16-49/critic_losses
+· Rewards saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_13-16-49/rewards_log
+· Total Rewards Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_13-16-49/total_rewards_plot.png
+· Actor Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_13-16-49/actor_losses_plot.png
+· Critic Losses Plot saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_13-16-49/critic_losses_plot.png
+· Hyperparameters and execution time saved successfully in path: /gpfs/home/amontoya/TFG/Algorithms/PPO/Results/15M_timesteps/exp1_2024-05-23_13-16-49/state.data
+Experiment exp1 completed.
+
