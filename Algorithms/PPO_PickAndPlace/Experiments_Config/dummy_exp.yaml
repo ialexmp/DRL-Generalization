@@ -1,5 +1,5 @@
 exp1:
-  timesteps: 2000
+  timesteps: 200000
   timesteps_per_batch: 1000
   max_timesteps_per_episode: 750
   gamma: 0.99
