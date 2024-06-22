@@ -41,7 +41,10 @@ altered environments.
   </table>
 </div>
 
-> ℹ️ The purpose of this README is to provide instructions and details necessary to replicate the experiments. For more comprehensive information, please consult the [Documentation](./Documentation/) directory.
+<br>
+
+>[!NOTE]
+>The purpose of this README is to provide instructions and details necessary to replicate the experiments. For more comprehensive information, please consult the [Documentation](./Documentation/) directory.
 
 ## Project Structure
 
@@ -115,24 +118,41 @@ To run this project, you will need to install the required dependencies. It is r
 
 ## Usage
 
-### Training an RL Agent
+ ```bash
+cd DRL-Generalization
+ ```
 
-To train a reinforcement learning agent, run the following command:
+### Dummy Experiments
+
+Before starting training and generalization experiments, you can execute various dummy experiments to ensure that everything is set up successfully.
 
 ```bash
-python src/train.py --config configs/train_config.yaml
+python ./Algorithms/PPO_[env_name]/dummy_example.py dummy_exp.yaml
 ```
-You can adjust the training parameters by editing the configuration file located in configs/train_config.yaml.
 
-### Running Experiments
-To run experiments with different configurations, use the experiment script:
-```bash 
-python src/evaluate.py --model-path models/agent_model.pth
+### Training Experiments
+
+To run training experiments with different configurations, use the experiment script:
+
+```bash
+python ./Algorithms/PPO_[env_name]/train.py train_config.yaml
 ```
-###  Evaluating Results
-After training, you can evaluate the performance of the trained agent using:
+You can adjust the training parameters by editing the configuration file located at Experiment_Config/train_config.yaml. Note that you can create different experiments within the same .yaml file, and the results will be automatically organized into separate folders named after each experiment within the .yaml file.
+
+### Model Evaluation 
+
+Once the agent is trained, you can evaluate the performance of the agent using:
 ```bash 
-python src/evaluate.py --model-path models/agent_model.pth
+python ./Algorithms/PPO_[env_name]/test.py [path_from_Results_folder]
+# Example : 
+# python ./Algorithms/PPO_Acrobot/test.py 1M_lr0_01\exp1_2024-06.07_20-04-46
+```
+###  Generealization Experiments
+After training, you can evaluate the generalization performance of a trained agent in a custom environment with slight modifications using the command:
+```bash 
+python ./Algorithms/PPO_[env_name]/Generalization/[Experiment_folder]/ZSG_[Experiment_name].py [path_from_Results_folder]
+# Example : 
+# python ./Algorithms/PPO_Acrobot/Generalziation/Link_Mass/ZSG_linkMass.py 1M_lr0_01\exp1_2024-06.07_20-04-46
 ```
 
 ## Contributing
