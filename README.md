@@ -1,42 +1,93 @@
-# Exploring Generalization in Reinforcement Learning for Pick and Place Robotics Tasks
+# Exploring Generalization in Deep Reinforcement Learning for Control Tasks
 
-## Introduction
+## Abstract
 
-This research investigates the generalization capabilities of reinforcement learning (RL) algorithms in the context of pick and place robotics tasks. The study focuses on assessing how well RL agents trained in simpler environments can adapt to unseen scenarios, a crucial aspect for real-world applications. The research utilizes Gymnasium robotics environments with MuJoCo physics engine to design a set of pick and place tasks of varying complexities. A Proximal Policy Optimization (PPO) algorithm is employed as the RL method for training agents to perform these tasks.
+Deep reinforcement learning (DRL) has achieved significant success in addressing
+various tasks; however, trained agents often struggle to generalize beyond
+the environments in which they were initially trained. This thesis investigates the generalization capabilities of DRL algorithms through a series of independent experiments on control tasks of varying complexity. These tasks range from simple scenarios like Mountain Car to more complex challenges such as Pick and Place, utilizing the Gymnasium and Gymnasium-Robotics suites with the MuJoCo physics engine. Each experiment involves training a model using Proximal
+Policy Optimization (PPO) within a specific environment and subsequently evaluating
+its performance in slightly modified environments. The impact of hyperparameters
+on generalization is also examined. The objective is to identify the
+strengths and limitations of DRL agents in adapting learned policies to similar but
+altered environments.
 
-The experimentation involves training RL agents in simpler pick and place environments and evaluating their performance in both seen and unseen scenarios. Through iterative training and evaluation cycles, the study analyzes the agents' ability to generalize across different environments, varying object shapes, sizes, and configurations. Additionally, the impact of hyperparameters and neural network architectures on generalization is explored.
-
-The results highlight the strengths and limitations of RL agents in generalizing learned policies to novel situations. Insights gained from this research contribute to a better understanding of how RL algorithms can be adapted and enhanced for real-world robotics applications. The findings offer valuable implications for the development of adaptive and robust RL systems in diverse pick and place robotics tasks.
-
-<div align="center">
-  <img src="Custom_Env/pick_and_place-env.gif" alt="Pick and Place Animation" width="250"/>
+<div style="text-align: center;">
+  <table style="border: none; margin: auto;">
+    <tr style="border: none;">
+      <td style="border: none; text-align: center;">
+        <img src="Custom_Env/acrobot.gif" alt="acrobot Animation" width="150"/>
+        <div>Acrobot</div>
+      </td>
+      <td style="border: none; text-align: center;">
+        <img src="Custom_Env/cart_pole.gif" alt="cart_pole Animation" width="150"/>
+        <div>CartPole</div>
+      </td>
+      <td style="border: none; text-align: center;">
+        <img src="Custom_Env/mountain_car.gif" alt="mountain_car Animation" width="150"/>
+        <div>Mountain Car Continuous</div>
+      </td>
+    </tr>
+    <tr style="border: none;">
+      <td style="border: none; text-align: center;">
+        <img src="Custom_Env/pendulum.gif" alt="Pendulum Animation" width="150"/>
+        <div>Pendulum</div>
+      </td>
+      <td style="border: none; text-align: center;">
+        <img src="Custom_Env/pick_and_place-env.gif" alt="Pick and Place Animation" width="150"/>
+        <div>Pick and Place</div>
+      </td>
+      <td style="border: none;"></td>
+    </tr>
+  </table>
 </div>
+
+> ℹ️ The purpose of this README is to provide instructions and details necessary to replicate the experiments. For more comprehensive information, please consult the [Documentation](./Documentation/) directory.
 
 ## Project Structure
 
-The repository is organized as follows:
+### [Algorithms](./Algorithms/)
+Contains the implementation of Proximal Policy Optimization (PPO) applied to the different environments. Each environment has a dedicated directory following a consistent structure to ensure uniformity. These directories contain the necessary scripts and configuration files for setting up, training, and testing the models.
 ```bash
-.
 ├── Algorithms/
-│ ├── PPO/
-│ ├── dummy_example.py/
-├── Cluster/
-│ ├── exploration/
-│ ├── experiments/
-├── Custom_Env/
-│ ├── agents/
-│ ├── environments/
-│ ├── utils/
-├── results/
-├── tests/
-└── README.md
+│   ├── PPO_Acrobot/
+│   │   ├── Experiments_Config/
+│   │   │   ├── ...                # Configurations for training experiments (.yaml)
+│   │   ├── Results/
+│   │   │   ├── ...                # Results from training experiments (automatically)
+│   │   ├── Generalization/
+│   │   │   ├── ...                # Generalization experiments and results
+│   │   ├── dummy_example.py       # Dummy script to test the environment setup
+│   │   ├── Network_Acrobot.py     # Defines Actor-Critic networks
+│   │   ├── test_Acrobot.py        # Script to test the trained models
+│   │   ├── train_Acrobot.py       # Configures experiments and calls the trainer
+│   │   ├── trainer_Acrobot.py     # Implements training of the model using PPO
+│   ├── PPO_CartPole/              # Same structure as PPO_Acrobot
+│   ├── PPO_ContinuousMountainCar/ # Same structure as PPO_Acrobot
+│   ├── PPO_Pendulum/              # Same structure as PPO_Acrobot
+│   ├── PPO_PickAndPlace/          # Same structure as PPO_Acrobot
 ```
 
-- **data/**: Contains raw and processed datasets.
-- **notebooks/**: Jupyter notebooks for data exploration and experiment documentation.
-- **src/**: Source code for the project, including agents, environments, and utility functions.
-- **results/**: Directory for storing results from experiments.
-- **tests/**: Unit tests for the codebase.
+### [Cluster](./Cluster/)
+Directory related to the experiment scripts (.sh) executed on the UPF Cluster for the Pick and Place scenario, organized into folders based on different hyperparameters. Additionally, it includes the SLURM output files generated from each experiment.
+```bash
+├── Cluster/
+│ ├── BatchSize_exp/        
+│ │    ├── ...              # Experiments relateds to the Batch Size
+│ ├── LearningRate_exp/         
+│ │    ├── ...              # Experiments relateds to the Learning Rates
+│ ├── slurms-outputs/...    
+│ │    ├── ...              # Slurms obtained in each of the experiments
+│ ├── Timesteps_exp/...
+│ │    ├── ...              # Experiments relateds to the Timesteps
+```
+
+### [Custom Environments](./Custom_Env/)
+This directory contains all the custom environments created for the generalization experiments.
+```bash
+├── Custom_Env/
+│   ├── custom_env.py             # Script containing all custom environments
+│   ├── dummy_test_custom_env.py  # Dummy script for testing the custom environments
+```
 
 ## Installation
 
@@ -45,8 +96,8 @@ To run this project, you will need to install the required dependencies. It is r
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/username/repository.git
-    cd repository
+    git clone https://github.com/ialexmp/DRL-Generalization.git
+    cd DRL-Generalization
     ```
 
 2. Create and activate a virtual environment:
@@ -84,17 +135,10 @@ After training, you can evaluate the performance of the trained agent using:
 python src/evaluate.py --model-path models/agent_model.pth
 ```
 
-## Experiments
-
-The experiments conducted in this project are documented in the notebooks/experiments/ directory. Each notebook contains detailed descriptions, code, and results of individual experiments
-
-## Results
-Results from the experiments, including performance metrics and trained models, are stored in the results/ directory. Visualizations and analysis of these results are also included in the notebooks.
-
 ## Contributing
 
 Contributions are welcome! Please fork the repository and create a pull request with your changes. Ensure that your code follows the project's style guidelines and includes relevant tests.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
