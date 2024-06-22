@@ -12,34 +12,35 @@ strengths and limitations of DRL agents in adapting learned policies to similar 
 altered environments.
 
 <div style="text-align: center;">
-  <table style="border: none; margin: auto;">
+  <table style="border-collapse: collapse; display: inline-block;">
     <tr style="border: none;">
-      <td style="border: none; text-align: center;">
-        <img src="Custom_Env/acrobot.gif" alt="acrobot Animation" width="200" height="150" />
-        <div>Acrobot</div>
+      <td style="border: none; text-align: center; padding: 10px;">
+        <img src="Custom_Env/acrobot.gif" alt="Acrobot Animation" width="200" height="150" />
+        <div><strong>Acrobot</strong></div>
       </td>
-      <td style="border: none; text-align: center;">
-        <img src="Custom_Env/cart_pole.gif" alt="cart_pole Animation" width="200" height="150"/>
-        <div>CartPole</div>
+      <td style="border: none; text-align: center; padding: 10px;">
+        <img src="Custom_Env/cart_pole.gif" alt="CartPole Animation" width="200" height="150"/>
+        <div><strong>CartPole</strong></div>
       </td>
-      <td style="border: none; text-align: center;">
-        <img src="Custom_Env/mountain_car.gif" alt="mountain_car Animation" width="200" height="150"/>
-        <div>Mountain Car Continuous</div>
+      <td style="border: none; text-align: center; padding: 10px;">
+        <img src="Custom_Env/mountain_car.gif" alt="Mountain Car Continuous Animation" width="200" height="150"/>
+        <div><strong>Mountain Car Continuous</strong></div>
       </td>
     </tr>
     <tr style="border: none;">
-      <td style="border: none; text-align: center;">
+      <td style="border: none; text-align: center; padding: 10px;">
         <img src="Custom_Env/pendulum.gif" alt="Pendulum Animation" width="200" height="150" />
-        <div>Pendulum</div>
+        <div><strong>Pendulum</strong></div>
       </td>
-      <td style="border: none; text-align: center;">
+      <td style="border: none; text-align: center; padding: 10px;">
         <img src="Custom_Env/pick_and_place-env.gif" alt="Pick and Place Animation" width="200" height="150"/>
-        <div>Pick and Place</div>
+        <div><strong>Pick and Place</strong></div>
       </td>
-      <td style="border: none;"></td>
+      <td style="border: none; text-align: center; padding: 10px;"></td>
     </tr>
   </table>
 </div>
+
 
 <br>
 
